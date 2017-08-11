@@ -4,7 +4,7 @@
 //    img.style.marginLeft='150px';
 //};
 var button=document.getElementById('counter');
-button.onClick = function()
+button.onclick = function()
 {
     counter=counter+1;
     var span=document.getElementbyId('count');
